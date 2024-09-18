@@ -1,0 +1,126 @@
+object Form1: TForm1
+  Left = 243
+  Height = 502
+  Top = 119
+  Width = 564
+  Caption = 'Form1'
+  ClientHeight = 502
+  ClientWidth = 564
+  Color = 12698111
+  LCLVersion = '3.4.0.0'
+  object Label1: TLabel
+    Left = 192
+    Height = 38
+    Top = 16
+    Width = 190
+    Caption = 'Mey''s Bakery'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -32
+    Font.Name = 'Script MT Bold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+  end
+  object Image1: TImage
+    Left = 16
+    Height = 250
+    Top = 72
+    Width = 250
+  end
+  object Label2: TLabel
+    Left = 296
+    Height = 25
+    Top = 72
+    Width = 44
+    Caption = 'Item'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -21
+    Font.Name = 'Script MT Bold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+  end
+  object ComboBox1: TComboBox
+    Left = 296
+    Height = 23
+    Top = 104
+    Width = 216
+    ItemHeight = 15
+    Items.Strings = (
+      'Cheese Cake'
+      'Red Velvet'
+      'Black Forest'
+      'Birthday Cake'
+      'Macaroon'
+    )
+    TabOrder = 0
+    OnChange = ComboBox1Change
+    OnEditingDone = ComboBox1EditingDone
+  end
+  object Label3: TLabel
+    Left = 296
+    Height = 25
+    Top = 136
+    Width = 61
+    Caption = 'Harga'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -21
+    Font.Name = 'Script MT Bold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+  end
+  object Memo1: TMemo
+    Left = 296
+    Height = 26
+    Top = 168
+    Width = 216
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 109
+    Height = 25
+    Top = 399
+    Width = 75
+    Caption = 'Reset'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 344
+    Height = 25
+    Top = 399
+    Width = 75
+    Caption = 'Keluar'
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Label4: TLabel
+    Left = 296
+    Height = 25
+    Top = 200
+    Width = 102
+    Caption = 'Keterangan'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -21
+    Font.Name = 'Script MT Bold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+  end
+  object Memo2: TMemo
+    Left = 296
+    Height = 88
+    Top = 232
+    Width = 216
+    TabOrder = 4
+  end
+end
